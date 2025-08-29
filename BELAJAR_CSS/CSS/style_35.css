@@ -1,0 +1,31 @@
+body {
+    background-color: #d6edff;
+    font-family: arial;
+    font-size: 14px;
+}
+.con-fontawesome {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-icon {
+    width:100px;
+    height:100px;
+    background-color:#fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin :5px;
+}
+.fas,.fab {
+    font-size: 30px;
+    color: #183153;
+    margin-top:10px;
+}
+.text-icon {
+    margin-top: 20px;
+}
+.box-icon:hover {
+    background-color: gold;
+}

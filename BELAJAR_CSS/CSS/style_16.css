@@ -1,0 +1,12 @@
+body {
+  background-image: url(../image/3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+    font-variant: normal;
+    color: lightgray;
+    font-size: 200px;
+    margin: auto;
+}

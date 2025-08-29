@@ -1,0 +1,20 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+p {
+  background-color: lightskyblue;
+  width: 200px;
+  height: 200px;
+  padding: 20px 15px;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.container {
+  width: 250px;
+  height: 800px;
+  background-color: darkcyan;
+}
+

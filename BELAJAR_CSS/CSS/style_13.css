@@ -1,0 +1,11 @@
+hr {
+  border-width: 5px;
+  border-style: double;
+  border-color: lightskyblue;
+}
+
+.lv {
+  width: 200px;
+  height: 200px;
+  border: 1px double black;
+}

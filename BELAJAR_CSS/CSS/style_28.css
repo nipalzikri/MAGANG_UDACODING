@@ -1,0 +1,13 @@
+.kotak {
+  width: 200px;
+  height: 100px;
+  background-color: green;
+  margin: 200px auto;
+}
+
+.kotak:hover{
+  /* transform: rotate(45deg); */
+  /* transform: scale(4); */
+  /* transform: translate(50px, 50px); */
+  transform: skew(20deg);
+}

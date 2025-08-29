@@ -1,0 +1,26 @@
+.container {
+  width: 900px;
+  margin: 0px auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;   
+}
+
+ul li a {
+  background-color: darkviolet;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 20px;
+  height: 30px;
+  padding: 5px 20px;
+  float: left;
+  border-left: 2px solid white;
+  line-height: 30px;
+}
+
+a:hover {
+  background-color: mediumslateblue;
+}

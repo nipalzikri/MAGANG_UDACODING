@@ -1,0 +1,29 @@
+body {
+  background-color: #ccc;
+}
+
+.container-main {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.content {
+  background-color: whitesmoke;
+  padding: 30px;
+  order: 2;
+  width: 400px;
+}
+
+.navigasi-kiri {
+  background-color: lightcyan;
+  padding: 30px;
+  flex: 1;
+}
+
+.navigasi-kanan {
+  background-color: lightblue;
+  padding: 30px;
+  flex: 1;
+}

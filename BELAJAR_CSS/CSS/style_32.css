@@ -1,0 +1,21 @@
+.container {
+  width: 500px;
+  height: 500px;
+  border: 3px solid;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  /* align-items: center; */
+
+}
+
+.box-1, .box-2, .box-3, .box-4 {
+  width: 100px;
+  height: 100px;
+  background-color: navy;
+  margin: 5px;
+  color: aliceblue;
+  font-size: 24px;
+}

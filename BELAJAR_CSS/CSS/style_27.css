@@ -1,0 +1,41 @@
+nav {
+  width: 900px;
+  margin: auto;
+  background-color: navy;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;   
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 10px;
+  color: antiquewhite;
+  display: block;
+}
+
+ul li .submenu {
+  background-color: antiquewhite;
+  display: none;
+  position: absolute;
+  padding: 0px;
+}
+
+ul li:hover .submenu {
+  display: block;
+}
+
+.submenu li a{
+  padding: 10px;
+  color: aliceblue;
+}
+
+.submenu li a:hover {
+  background-color: darkslateblue;
+}
