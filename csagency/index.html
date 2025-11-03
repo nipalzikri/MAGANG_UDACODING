@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DaClean — Cleaning Service Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Top bar (opsional info singkat) -->
+  <div class="topbar">
+    Promo Oktober: Diskon 20% untuk paket bulanan • Hubungi kami: 0812-3456-7890
+  </div>
+
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#home" class="brand" aria-label="DaClean Home">
+        <span class="logo-dot" aria-hidden="true"></span>
+        <span class="brand__text">DaClean</span>
+      </a>
+
+      <!-- Mobile menu -->
+      <input id="nav-toggle" type="checkbox" class="nav__toggle" aria-label="Toggle menu">
+      <label for="nav-toggle" class="nav__burger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav__menu">
+        <a href="#services">Layanan</a>
+        <a href="#why">Mengapa Kami</a>
+        <a href="#equipment">Peralatan</a>
+        <a href="#packages">Paket</a>
+        <a href="#members">Member</a>
+        <a href="#contact" class="btn btn--sm">Hubungi</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero__grid">
+      <div class="hero__text">
+        <h1>Kebersihan Terjamin, Lingkungan Sehat dan Nyaman</h1>
+        <p>
+          Jasa cleaning service profesional untuk rumah, kos, kantor, dan apartemen.
+          Tim terlatih, SOP higienis, dan peralatan modern. Pilih paket sesuai kebutuhan, kami kerjakan dengan rapi dan tepat waktu.
+        </p>
+        <div class="hero__actions">
+          <a href="#services" class="btn">Pesan Layanan</a>
+          <a href="#contact" class="btn btn--ghost">Konsultasi Gratis</a>
+        </div>
+
+        <!-- Quick selector -->
+        <form class="quick" action="#packages">
+          <div class="quick__group">
+            <label for="service">Pilih layanan</label>
+            <select id="service" name="service">
+              <option>General Cleaning</option>
+              <option>Deep Cleaning</option>
+              <option>Move-in / Move-out</option>
+              <option>Office Cleaning</option>
+            </select>
+          </div>
+          <button class="btn btn--sm" type="submit">Lihat Paket</button>
+        </form>
+      </div>
+
+      <div class="hero__media">
+        <img
+          src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1200&auto=format&fit=crop"
+          alt="Tim kebersihan sedang bekerja di ruang tamu"
+          class="hero__img"
+        />
+        <!-- Badge kecil -->
+        <div class="stat">
+          <strong>1.2K+</strong>
+          <span>Proyek selesai</span>
+        </div>
+        <div class="stat stat--2">
+          <strong>4.9/5</strong>
+          <span>Rata-rata rating</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section id="why" class="why">
+    <div class="container">
+      <div class="section__head">
+        <h2>Mengapa <span class="accent">DaClean?</span></h2>
+        <p>Kualitas terbaik dengan standar kebersihan yang ketat.</p>
+      </div>
+
+      <div class="grid-4">
+        <div class="card feature">
+          <div class="ico">🧼</div>
+          <h3>Quality</h3>
+          <p>Pembersihan menyeluruh menggunakan chemical aman & ramah lingkungan.</p>
+        </div>
+        <div class="card feature">
+          <div class="ico">⚡</div>
+          <h3>Reliability</h3>
+          <p>Tim tepat waktu, ber-SOP, dan dibekali checklist pekerjaan yang jelas.</p>
+        </div>
+        <div class="card feature">
+          <div class="ico">🛡️</div>
+          <h3>Safety</h3>
+          <p>APD lengkap dan prosedur keselamatan kerja yang terdokumentasi.</p>
+        </div>
+        <div class="card feature">
+          <div class="ico">📞</div>
+          <h3>Support</h3>
+          <p>Dukungan cepat via WhatsApp & email, garansi revisi 24 jam.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EQUIPMENT -->
+  <section id="equipment" class="equipment">
+    <div class="container">
+      <div class="section__head">
+        <h2>Peralatan Profesional</h2>
+        <p>Peralatan bersertifikat untuk hasil optimal.</p>
+      </div>
+
+      <div class="grid-3">
+        <article class="card product">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2QThmotjltqTYX7rd1yYzXPdsYIvsiB80eA&s" alt="Set kuas dan sikat pembersih"/>
+          <div class="product__body">
+            <h4>Cleaning Brush Set</h4>
+            <p>Set lengkap untuk sela-sela & sudut sulit.</p>
+          </div>
+        </article>
+
+        <article class="card product">
+          <img src="https://img.freepik.com/premium-photo/low-section-person-cleaning-rug-with-vacuum-cleaner-home_1048944-22688041.jpg?semt=ais_hybrid&w=740&q=80" alt="Vacuum cleaner berkualitas tinggi"/>
+          <div class="product__body">
+            <h4>High-Quality Vacuum</h4>
+            <p>Vacuum HEPA untuk menyaring debu mikro.</p>
+          </div>
+        </article>
+
+        <article class="card product">
+          <img src="https://images.unsplash.com/photo-1585421514738-01798e348b17?q=80&w=1200&auto=format&fit=crop" alt="Pembersih uap untuk kain dan sofa"/>
+          <div class="product__body">
+            <h4>Steam Cleaner</h4>
+            <p>Membersihkan sofa & karpet tanpa merusak serat.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section__head">
+        <h2>Layanan Kami</h2>
+        <p>Pilih paket sesuai kebutuhan ruanganmu.</p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card service">
+          <img src="https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?q=80&w=1200&auto=format&fit=crop" alt="Membersihkan ruang tamu"/>
+          <div class="service__body">
+            <h3>General Cleaning</h3>
+            <ul>
+              <li>Sapu & pel seluruh lantai</li>
+              <li>Lap debu furnitur</li>
+              <li>Kamar mandi & dapur ringan</li>
+            </ul>
+            <div class="price">Mulai <strong>Rp149K</strong></div>
+            <a href="#contact" class="btn btn--sm">Pesan</a>
+          </div>
+        </div>
+
+        <div class="card service service--highlight">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkAkFrek-mZp3nX_yZKkwtwyA7NxIk7tnpXg&s" alt="Deep cleaning detail"/>
+          <div class="service__body">
+            <h3>Deep Cleaning</h3>
+            <ul>
+              <li>Pembersihan detail kamar mandi & dapur</li>
+              <li>Cuci sofa/karpet (opsional)</li>
+              <li>Disinfeksi area sentuh</li>
+            </ul>
+            <div class="price">Mulai <strong>Rp349K</strong></div>
+            <a href="#contact" class="btn btn--sm">Pesan</a>
+          </div>
+        </div>
+
+        <div class="card service">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOFH60hDOKCU2EWD8ABaqher9Va84oJ7QXig&s" alt="Pembersihan kantor modern"/>
+          <div class="service__body">
+            <h3>Office Cleaning</h3>
+            <ul>
+              <li>Meja kerja & pantry</li>
+              <li>Vacuum karpet kantor</li>
+              <li>Jadwal rutin mingguan/bulanan</li>
+            </ul>
+            <div class="price">Mulai <strong>Rp499K</strong></div>
+            <a href="#contact" class="btn btn--sm">Pesan</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEMBERSHIP -->
+  <section id="members" class="members">
+    <div class="container members__grid">
+      <div class="members__text">
+        <h2>Jadilah <span class="accent">Member</span></h2>
+        <p>
+          Dapatkan akses eksklusif ke jadwal prioritas, diskon hingga 25%,
+          dan konsultasi gratis setiap bulan. Cocok untuk keluarga atau kantor.
+        </p>
+        <a href="#contact" class="btn">Gabung Sekarang</a>
+      </div>
+      <div class="members__media">
+        <img
+          src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop"
+          alt="Keluarga senang di rumah bersih"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / CTA -->
+  <section id="contact" class="contact">
+    <div class="container contact__box">
+      <div>
+        <h3>Butuh penawaran khusus?</h3>
+        <p>Kirimkan detail ruangan & jadwal, kami balas dalam 1×24 jam.</p>
+      </div>
+      <a href="https://wa.me/6281234567890" class="btn" target="_blank" rel="noopener">Chat WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#home" class="brand brand--footer">
+          <span class="logo-dot"></span>
+          <span class="brand__text">DaClean</span>
+        </a>
+        <p>Solusi kebersihan tepercaya untuk rumah & kantor.</p>
+      </div>
+
+      <div>
+        <h5>Perusahaan</h5>
+        <ul>
+          <li><a href="#why">Tentang Kami</a></li>
+          <li><a href="#services">Layanan</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Bantuan</h5>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Kebijakan Privasi</a></li>
+          <li><a href="#">Syarat & Ketentuan</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Alamat</h5>
+        <p>Jl. Bersih No. 10, Padang, Sumatera Barat</p>
+        <p>hello@daclean.id</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      © <span id="y"></span> DaClean. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    // tahun dinamis
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
