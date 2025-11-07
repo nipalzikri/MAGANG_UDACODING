@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: mysql:3306
--- Generation Time: Nov 06, 2025 at 04:05 AM
+-- Generation Time: Nov 07, 2025 at 06:29 AM
 -- Server version: 8.0.43
 -- PHP Version: 8.3.26
 
@@ -101,7 +101,10 @@ CREATE TABLE `guestbooks` (
 --
 
 INSERT INTO `guestbooks` (`id`, `name`, `address`, `email`, `phone`, `purpose`, `visit_date`, `visit_time`, `origin`, `amount`, `total_people`, `message`, `created_at`, `updated_at`) VALUES
-(1, 'Anton', 'Jalan mundur', NULL, '0822222222', 'Training', '2025-11-04', '10:42', NULL, 1, 1, NULL, '2025-11-06 03:42:47', '2025-11-06 03:42:47');
+(1, 'Anton', 'Jalan mundur', NULL, '0822222222', 'Training', '2025-11-04', '10:42', NULL, 1, 1, NULL, '2025-11-06 03:42:47', '2025-11-06 03:42:47'),
+(2, 'Anton', 'Jl. Kemerdekaan No.17, Kec, Kab, Sumbar', NULL, '081239123281', 'Meeting', '2025-11-07', '12.00 PM', NULL, 1000, 1000, NULL, '2025-11-06 07:24:38', '2025-11-06 07:24:38'),
+(3, 'Anton', 'Jalan jalan yow', NULL, '09128381', 'Interview', NULL, NULL, NULL, 1, 1, NULL, '2025-11-07 06:27:20', '2025-11-07 06:27:20'),
+(4, 'Anton', 'Jl. Jalan jalan, No.1', NULL, '09128381', 'Meeting', '2025-11-07', '12.00 PM', NULL, 10, 10, NULL, '2025-11-07 06:27:59', '2025-11-07 06:27:59');
 
 -- --------------------------------------------------------
 
@@ -179,6 +182,14 @@ CREATE TABLE `sections` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `sections`
+--
+
+INSERT INTO `sections` (`id`, `key`, `title`, `subtitle`, `content`, `image_path`, `sort`, `is_active`, `created_at`, `updated_at`) VALUES
+(2, 'hero', 'Bangun Solusi Digital Lebih Cepat', 'Tim kami membantu Anda merancang, membangun, dan meluncurkan produk dengan lebih efisien.', NULL, NULL, 1, 1, '2025-11-07 06:25:47', '2025-11-07 06:25:47'),
+(4, 'about', NULL, NULL, 'Udacoding adalah tim yang berfokus pada IT training dan software development.\r\nKami membantu perusahaan mengakselerasi transformasi digital melalui desain,\r\nengineering, dan implementasi solusi end-to-end.', NULL, 2, 1, '2025-11-07 06:26:36', '2025-11-07 06:26:36');
 
 -- --------------------------------------------------------
 
@@ -287,7 +298,7 @@ ALTER TABLE `failed_jobs`
 -- AUTO_INCREMENT for table `guestbooks`
 --
 ALTER TABLE `guestbooks`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `migrations`
@@ -305,7 +316,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT for table `sections`
 --
 ALTER TABLE `sections`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `users`
